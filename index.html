@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/design/favicon-32x32.png" />
+    <title>Countdown</title>
+</head>
+<body>
+    <div class="main">
+            <h1 class="main_title">Contador</h1>
+        <p>Informe uma data</p>
+        
+        <div class="main_date">
+            <input id="date_counter" type="date" label="Contador" placeholder="DD/MM/AAAA"  >
+        </div>
+        
+        <div class="botao">
+            <button ><strong>Iniciar contagem</strong></button>
+        </div> 
+
+        <div class="countdown_menu">
+            <h1>Contador</h1>
+            <p><strong>Faltam</strong></p>
+            <button>Resetar</button>
+        </div>
+        
+        <ul class="countdown">
+            <div class="dia_hora">
+                <li>
+                    <span data-time>00</span>
+                    <div class="countdown_calendar">dia(s)</div>
+                </li>
+                <li>
+                    <span data-time>00</span>
+                    <div class="countdown_calendar">minuto(s)</div>
+                </li>
+            </div>
+            <div class="minuto_segundo">
+                <li>
+                    <span data-time>00</span>
+                    <div class="countdown_calendar">hora(s)</div>
+                    
+                </li>
+                <li>
+                    <span data-time>00</span>
+                    <div class="countdown_calendar">segundo(s)</div>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
