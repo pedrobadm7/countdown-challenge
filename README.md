@@ -23,7 +23,5 @@
 Javascript<br>
 HTML<br>
 CSS<br>
-Linguagem de sua preferência :)
-
 
 
