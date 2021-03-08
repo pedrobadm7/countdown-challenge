@@ -10,9 +10,6 @@
     Aplicação para contar dias, horas, minutos e segundos
        <br />
     <br />
-    <a href="https://github.com/Lorenalgm/contador">Desafio</a>
-    ·
-    <a href="https://www.linkedin.com/in/lorenagmontes/">Contato</a>
   </p>
 </p>
 
